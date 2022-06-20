@@ -93,7 +93,6 @@ p {
 }
 img {
   vertical-align: middle;
-  margin-bottom: 10px;
 }
 /* tikslinimai */
 header h1 {
@@ -128,6 +127,9 @@ li p {
 }
 section:nth-of-type(2) {
   padding-bottom: 50px;
+}
+section:nth-of-type(2) li{
+  margin-bottom: 10px;
 }
 section:nth-of-type(3) p {
   line-height: 23px;
