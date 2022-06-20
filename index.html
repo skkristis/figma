@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="sleeve sleeve-first"></div>
+      <div class="sleeve-first"></div>
       <header>
         <h1>sophie alpert</h1>
         <h3>programmer</h3>
@@ -76,9 +76,9 @@
             <div class="sleeve"></div>
             <div class="hr"></div>
           </div>
-          <p><span class="green">teamwork</span></p>
-          <p><span class="yellow">communication</span></p>
-          <p><span class="red">organization</span></p>
+          <div class="pill-container"><p class="pill green">teamwork</p></div>
+          <div class="pill-container"><p class="pill yellow">communication</p></div>
+          <div class="pill-container"><p class="pill red">organization</p></div>
         </section>
         <!-- technial skills -->
         <section>
@@ -87,10 +87,12 @@
             <div class="sleeve"></div>
             <div class="hr"></div>
           </div>
-          <p><span class="green">html</span></p>
-          <p><span class="green">css/scss</span></p>
-          <p><span class="yellow">javascript</span></p>
-          <p><span class="yellow">react.js</span></p>
+          <div>
+            <div class="pill-container"><p class="pill green">html</p></div>
+            <div class="pill-container"><p class="pill green">css/scss</p></div>
+            <div class="pill-container"><p class="pill yellow">javascript</p></div>
+            <div class="pill-container"><p class="pill yellow">react.js</p></div>
+          </div>
         </section>
         <!-- work experience -->
         <section>
@@ -114,7 +116,6 @@
                 • Consectetur adipiscing elit
               </p>
             </article>
-            <div class="hr rotate"></div>
 
             <article>
               <h5>job position</h5>
@@ -130,7 +131,6 @@
                 • Consectetur adipiscing elit
               </p>
             </article>
-            <div class="hr rotate"></div>
 
             <article>
               <h5>job position</h5>
