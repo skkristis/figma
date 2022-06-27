@@ -70,7 +70,7 @@ main {
 }
 p {
   /* width: 100%; */
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: justify;
@@ -122,6 +122,10 @@ section:first-of-type p {
   font-weight: 500;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 li p {
   display: inline;
   padding-left: 12px;
@@ -146,15 +150,6 @@ h6 {
   font-size: 16px;
   text-transform: none;
   margin-bottom: 30px;
-}
-article p,
-article li {
-  font-weight: 500;
-
-  margin: auto;
-}
-article li {
-  list-style: disc;
 }
 
 footer {
