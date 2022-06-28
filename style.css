@@ -36,7 +36,8 @@ h6 {
 .sleeve-first {
   background: #7abcac;
   height: 61px;
-  margin: 0;
+  margin: auto;
+  max-width: 1110px;
 }
 .hr {
   width: 100%;
